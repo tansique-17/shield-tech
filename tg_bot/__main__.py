@@ -22,11 +22,11 @@ Hey there! I am telegrams most secure bot maintained by *SHIELD'S SERVER* - I'm 
 
 Type /help to find out more about how to use me to my full potential.
 
-Join [SHIELD HEAD QUARTERS](@shield_hq)  if you need any support or help.
+Join [SHIELD HEAD QUARTERS](t.me/shield_hq)  if you need any support or help.
 
-Made with love by [Director of SHIELD](@tansique_17)
+Made with love by [Director of SHIELD](t.me/tansique_17)
 
-Maintined by [SHIELD TECH TEAM](@shield_agents)"""
+Maintined by [SHIELD TECH TEAM](t.me/shield_agents)"""
 
 HELP_STRINGS = """
 
