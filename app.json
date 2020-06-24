@@ -45,13 +45,13 @@
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "required": false
       "value": ""
+      "required": false
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "required": false
       "value": ""
+      "required": false
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
