@@ -18,24 +18,19 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Hey there! I am telegrams most secure bot maintained by *SHIELD'S SERVER* - I'm here to help you manage your groups!
 
-im a group manager bot maintained by(@ShizukaAkari).
+Type /help to find out more about how to use me to my full potential.
 
-My Support Group @ShizukaSupport.
+Join [SHIELD HEAD QUARTERS](@shield_hq)  if you need any support or help.
 
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/yusrilsyahruddin/Shizuka),
-you can create clone same like me..
+Made with love by [Director of SHIELD](@tansique_17)
 
-For more commands click /help...
-
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
-
-"""
+Maintined by [SHIELD TECH TEAM](@shield_agents)"""
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+Hello! my name *SHIELD'S SERVER*.
 
 *Main* available commands:
  - /start: Start the bot...
@@ -368,7 +363,7 @@ def donate(bot: Bot, update: Update):
     if chat.type == "private":
         update.effective_message.reply_text(DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1147529081 and DONATION_LINK:
             update.effective_message.reply_text("You can also donate to the person currently running me "
                                                 "[here]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
